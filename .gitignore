@@ -1,2 +1,5 @@
+#Inkluder ikke modulerne.
 node_modules/
+
+#Inkluder ikke package-lock filen.
 package-lock.json
