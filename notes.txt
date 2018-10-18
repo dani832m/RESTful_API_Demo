@@ -1,0 +1,13 @@
+Hvad er REST?
+    REST er akronym for "Representational State Transfer".
+    De såkaldte RESTful apps bruger HTTP requests til at udføre de klassiske CRUD-operationer:
+    CREATE (POST), READ (GET), UPDATE (POST/PUT), DELETE (DELETE).
+
+Hvorfor bruge Postman?
+    Vha. Postman - eller en anden simpel RESTful Client - kan vi hurtigt se, hvad vi får ud af at sende
+    de forskellige requests til vores lokale Node-server.
+
+MongoDB?
+    Jeg har undladt at bruge MongoDB som back-end database og i stedet skrive og læse direkte fra en
+    lokal JSON-fil i Postman. Det giver selvfølgelig et API, som kun kan tilgås af mig lokalt, men det
+    illustrerer alligevel pointen IMO.
