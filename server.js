@@ -8,7 +8,7 @@
 */
 
 var express = require('express'); //Inkluderer Express-modulet
-var app = express();
+var app = express(); //Initialiserer app'en
 var fs = require("fs"); //Inkluderer FS-modulet
 
 /*
