@@ -10,8 +10,9 @@ Hvorfor bruge Postman?
 MongoDB?
     Jeg har undladt at bruge MongoDB som back-end database og i stedet inkludere FS-modulet, så jeg kan
     skrive og læse direkte fra en lokal JSON-fil via Postman. Det giver selvfølgelig et API, som kun kan
-    tilgås af mig lokalt, men det illustrerer alligevel pointen IMO.
+    tilgås af mig lokalt og uden db, men det illustrerer alligevel pointen IMO.
 
 Links:
     https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
     https://medium.com/@dinyangetoh/how-to-build-simple-restful-api-with-nodejs-expressjs-and-mongodb-99348012925d
+    https://drive.google.com/file/d/1IjXsHcUcI5pGUkSTpUjerRL0nKtNMrKl/view (Node Handbook)

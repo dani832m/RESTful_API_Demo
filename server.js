@@ -18,7 +18,7 @@ var fs = require("fs"); //Inkluderer FS-modulet
 
 app.get('/listUsers', function (req, res) {
    fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
-       console.log( data );
+       console.log( data ); // Udskriver dataen/resultatet til konsollen
        res.end( data );
    });
 })
@@ -46,7 +46,7 @@ app.post('/addUser', function (req, res) {
         // Så tilføjes den nye bruger til json-filen.
         data = JSON.parse( data );
         data["user4"] = user["user4"];
-        console.log( data );
+        console.log( data ); // Udskriver dataen/resultatet til konsollen
         res.end(JSON.stringify(data));
     });
  })
@@ -57,7 +57,7 @@ app.post('/addUser', function (req, res) {
     Indtast i Postman: http://127.0.0.1:8081/deleteUser
  */
 
-var id = 2;
+var id = 2; // Udskift evt. id nr. for at slette andre brugere.
 
 app.delete('/deleteUser', function (req, res) {
     // Først indlæses de eksisterende brugere.
@@ -65,7 +65,7 @@ app.delete('/deleteUser', function (req, res) {
        // Så slettes brugeren med det angivne id nr.
        data = JSON.parse( data );
        delete data["user" + id];
-       console.log( data );
+       console.log( data ); // Udskriver dataen/resultatet til konsollen
        res.end(JSON.stringify(data));
    });
 })
